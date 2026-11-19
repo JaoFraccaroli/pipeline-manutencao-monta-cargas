@@ -1,6 +1,6 @@
 # Pipeline de ordens de serviço de manutenção de monta-cargas
 
-[![Pipeline de ordens de serviço](https://github.com/JaoFraccaroli/pipeline-ordens-de-servi-o-manuten-o-monta-cargas/actions/workflows/pipeline.yml/badge.svg)](https://github.com/JaoFraccaroli/pipeline-ordens-de-servi-o-manuten-o-monta-cargas/actions/workflows/pipeline.yml)
+[![Pipeline de ordens de serviço](https://github.com/JaoFraccaroli/pipeline-manutencao-monta-cargas/actions/workflows/pipeline.yml/badge.svg)](https://github.com/JaoFraccaroli/pipeline-manutencao-monta-cargas/actions/workflows/pipeline.yml)
 
 Projeto de **engenharia de dados** com **PySpark** e **Delta Lake**, na **arquitetura medalhão** (Bronze → Silver → Gold). O pipeline pega o histórico bagunçado de ordens de serviço (OS) de manutenção de monta-cargas, limpa, padroniza, separa o que não dá para confiar, e entrega indicadores de manutenção: **MTBF, MTTR e a sugestão da próxima manutenção**.
 
