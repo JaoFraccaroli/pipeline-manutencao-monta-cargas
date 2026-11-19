@@ -21,7 +21,8 @@ def criar_spark(nome: str = "pipeline-os"):
         .config("spark.sql.ansi.enabled", "false")
         .config("spark.sql.shuffle.partitions", "4")
         .config("spark.ui.enabled", "false")
-        .config("spark.sql.session.timeZone", "America/Sao_Paulo")
+        # Fuso: o Spark usa o mesmo do sistema (não forçar um fuso diferente do Python,
+        # senão "05/03 00:00" volta como "05/03 03:00" numa máquina em UTC)
     )
     spark = configure_spark_with_delta_pip(construtor).getOrCreate()
     spark.sparkContext.setLogLevel("ERROR")
