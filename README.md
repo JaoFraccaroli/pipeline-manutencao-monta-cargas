@@ -122,7 +122,7 @@ O [Databricks Free Edition](https://www.databricks.com/learn/free-edition) é gr
 2. Abra [`databricks/executar_no_databricks.py`](databricks/executar_no_databricks.py) e clique em **Run all**. Ele usa **o mesmo código** de `pipeline/`, com os dados num Volume do Unity Catalog.
 3. Para agendar, use **Schedule** e escolha, por exemplo, todo dia às 6h. O notebook vira um **Job**.
 
-> Esse notebook ainda não foi testado no Databricks; o pipeline é testado no GitHub Actions, com PySpark e Delta Lake locais.
+> Testado no Databricks Free Edition (computação Serverless) em 19/11/2026. Os números deram iguais aos do GitHub Actions: 777 linhas na Bronze, 740 na Silver e 6 na quarentena, com o MC-02 em primeiro. O primeiro teste pegou um detalhe: o Databricks liga o modo ANSI por padrão, e com ele a data 31/02 quebraria o pipeline em vez de ir para a quarentena. Agora o pipeline aplica os próprios ajustes também na sessão que o Databricks já entrega pronta, e há um teste para isso.
 
 ## No GitHub Actions
 
