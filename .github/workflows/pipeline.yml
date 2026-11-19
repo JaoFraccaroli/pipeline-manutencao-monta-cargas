@@ -1,0 +1,63 @@
+name: Pipeline de ordens de serviço
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 9 * * 1"   # toda segunda-feira (job agendado, como em produção)
+
+jobs:
+  testes:
+    name: Testes (PySpark + Delta Lake)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Guardar os pacotes do Delta Lake entre execuções
+        uses: actions/cache@v4
+        with:
+          path: ~/.ivy2
+          key: ivy-delta-3.2.1
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -v
+
+  pipeline:
+    name: Rodar o pipeline (2 vezes, para provar que não duplica)
+    needs: testes
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - uses: actions/cache@v4
+        with:
+          path: ~/.ivy2
+          key: ivy-delta-3.2.1
+      - run: pip install -r requirements.txt
+      - name: Primeira execução
+        run: python -m pipeline.executar --entrada dados/entrada --lake lake --exportar saida
+      - name: Segunda execução (nada novo para carregar; os números precisam ser os mesmos)
+        run: |
+          cp relatorio.md relatorio_1.md
+          python -m pipeline.executar --entrada dados/entrada --lake lake
+          diff <(grep -E '^\| (Bronze|Silver|Quarentena)' relatorio_1.md) <(grep -E '^\| (Bronze|Silver|Quarentena)' relatorio.md)
+          cat relatorio_1.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Guardar as tabelas Gold (CSV)
+        uses: actions/upload-artifact@v4
+        with:
+          name: gold-csv
+          path: saida/

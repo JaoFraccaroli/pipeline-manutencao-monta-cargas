@@ -1,0 +1,164 @@
+numero_os;equipamento;tipo;data_abertura;data_fechamento;horas_paradas;descricao;tecnico;status
+OS-00606;monta cargas 4;PREDITIVA;18/09/2026 03:59;2026-09-18 09:35:56;3h12;Corrente de tração do MC-04 com folga;Técnico D;Fechada
+OS-00697; MC-02 ;Corretiva;28/09/2026 17:32;29/09/2026 05:15;9h36;Botoeira de emergência travada;Técnico A;Fechada
+OS-00625;MC-03;Preditiva;25/10/2026;25/10/2026 08:07;0,8;Botoeira de emergência travada;Técnico A;Fechada
+OS-00678;MC-05;Corretiva;21/10/2026 13:52;21/10/2026 18:05;3.2;Vazamento de óleo no cilindro - MC-05;Técnico D;Fechada
+OS-00611;MC 2;Corretiva;22/09/2026 00:45;22/09/2026 03:58;48min;Lâmpada do MC-02 queimada;Técnico A;Fechada
+OS-00373;MC-02;Corretiva ;28/06/2026;28/06/2026;2h;Vazamento de óleo no cilindro - MC-02;Técnico A;Fechada
+OS-00690;MC-06;Corretiva ;01/10/2026;01-10-2026;96min;Botoeira de emergência travada;Técnico A;Fechada
+OS-00548;MC-02;Corretiva;06-01-2026;06-01-2026;2h;Porta de pavimento não fecha;Técnico A;Fechada
+OS-00646; MC-02 ;PREVENTIVA;26-09-2026;26/09/2026 12:00;96min;Freio do motor desregulado;Técnico A;Fechada
+OS-00604;monta cargas 6;corr.;13/10/2026;13/10/2026;6.4;Freio do motor desregulado;Técnico B;Fechada
+OS-00708;monta cargas 6;Prev.;10/09/2026;11/09/2026 01:45;3,2;Freio do motor desregulado;Técnico D;Fechada
+OS-00695;Monta-cargas 01;Corretiva ;16-09-2026;16/09/2026 21:07;1.6;Ruído no motor de elevação;Técnico C;Fechada
+OS-00669;monta cargas 1;Prev.;2026-09-01 22:50:07;02/09/2026 04:12;2,4;Cabo de aço desfiado - troca preventiva;Técnico C;Fechada
+OS-00680;MC-02;PREDITIVA;04/10/2026;04/10/2026 19:21;0.4;Corrente de tração do MC-02 com folga;Técnico B;Fechada
+OS-00707;MC 2;prev;12/10/2026 00:52;12/10/2026;0h24;Lâmpada do MC-02 queimada;Técnico B;Fechada
+OS-00717;MC-05;corretiva;12/10/2026 20:51;13-10-2026;4,8;Freio do motor desregulado;Técnico C;Fechada
+OS-00627;monta cargas 2;Corretiva;2026-10-02 01:06:02;02/10/2026;12,8;Corrente de tração do MC-02 com folga;Técnico D;Fechada
+OS-00709;MC-01;Corretiva ;10/10/2026 20:14;11-10-2026;4.8;Lâmpada do MC-01 queimada;Técnico B;Fechada
+OS-00126; MC-04 ;Corretiva;2026-03-10 21:16:22;2026-03-10 21:16:22;2h;Cabo de aço desfiado - troca preventiva;Técnico C;Fechada
+OS-00706;MC 2;Corretiva ;18-10-2026;18-10-2026;6.4;Ruído no motor de elevação;Técnico D;Fechada
+OS-00723;MC-05;Corretiva ;26-09-2026;;;Freio do motor desregulado;Técnico A;Aberta
+OS-00726;MC-03;corr.;2026-10-26 00:53:34;26/10/2026 04:00;1.6;Sensor de fim de curso com mau contato;Técnico D;Fechada
+OS-00728;mc02;PREVENTIVA;30/09/2026 23:42;2026-10-01 05:07:26;288min;Sensor de fim de curso com mau contato;Técnico C;Fechada
+OS-00732;Monta-cargas 02;Corretiva;25/09/2026;25/09/2026 17:08;0,8;Vazamento de óleo no cilindro - MC-02;Técnico D;Fechada
+OS-00292;Monta-cargas 01;Corretiva;28/04/2026 05:07;28/04/2026 05:07;2h;Porta de pavimento não fecha;Técnico A;Fechada
+OS-00648;MC 2;corretiva;22-10-2026;22/10/2026 16:02;2,4;Lâmpada do MC-02 queimada;Técnico B;Fechada
+OS-00740;monta cargas 3;CORRETIVA;12/10/2026;12/10/2026 12:55;2.4;Inversor de frequência em falha (E-07);Técnico C;Fechada
+OS-00679;MC-02;Corretiva ;13/09/2026 02:54;;;Lâmpada do MC-02 queimada;Técnico A;Aberta
+OS-00729;MC-03;Corretiva;20-09-2026;2026-09-20 17:38:15;288min;Ruído no motor de elevação;Técnico A;Fechada
+OS-00634;MC-05;corretiva;06/10/2026 20:51;07/10/2026 08:40;9,6;Porta de pavimento não fecha;Técnico D;Fechada
+OS-00048;MC-02;Preventiva;07/02/2026 17:26;07/02/2026 17:26;2h;Ruído no motor de elevação;Técnico C;Fechada
+OS-00711; MC-05 ;corr.;18/10/2026;19-10-2026;288min;Botoeira de emergência travada;Técnico B;Fechada
+OS-00632;monta cargas 1;prev;01/10/2026 19:57;;;Vazamento de óleo no cilindro - MC-01;Técnico A;Aberta
+OS-00739;MC-01;Prev.;2026-10-10 18:23:51;10/10/2026 21:35;1h12;Corrente de tração do MC-01 com folga;Técnico B;Fechada
+OS-00687;MC-05;PREVENTIVA;24/09/2026;25/09/2026 00:20;192min;Inversor de frequência em falha (E-07);Técnico C;Fechada
+OS-00727;monta cargas 5;pred.;10/10/2026;2026-10-11 01:10:11;1.6;Sensor de fim de curso com mau contato;Técnico B;Fechada
+OS-00657;mc03;Corretiva ;18/10/2026 08:06;18-10-2026;768min;Inversor de frequência em falha (E-07);Técnico B;Fechada
+OS-00684;MC-01;corretiva;27/10/2026;;;Freio do motor desregulado;Técnico C;Aberta
+OS-00637;mc02;prev;22-09-2026;2026-09-22 19:10:47;0h48;Botoeira de emergência travada;Técnico D;Fechada
+OS-00722;monta cargas 3;CORRETIVA;17/09/2026 08:45;17/09/2026 13:46;3,2;Porta de pavimento não fecha;Técnico B;Fechada
+OS-00718;Monta-cargas 02;prev;03-09-2026;03/09/2026;1,6;Botoeira de emergência travada;Técnico D;Fechada
+OS-00712;MC 5;Corretiva ;04/10/2026;04-10-2026;9h36;Lâmpada do MC-05 queimada;Técnico B;Fechada
+OS-00698; MC-04 ;prev;20/09/2026 09:38;20/09/2026 13:27;1,2;Botoeira de emergência travada;Técnico A;Fechada
+OS-00671;monta cargas 5;CORRETIVA;12-10-2026;12/10/2026 13:01;1,6;Inversor de frequência em falha (E-07);Técnico D;Fechada
+OS-00738;MC-03;prev;11-10-2026;11/10/2026;0,4;Freio do motor desregulado;Técnico B;Fechada
+OS-00608;MC-02;prev;04-09-2026;04/09/2026 09:18;3.2;Inversor de frequência em falha (E-07);Técnico D;Fechada
+OS-00691;MC-01;prev;17-09-2026;17/09/2026 21:06;48min;Sensor de fim de curso com mau contato;Técnico D;Fechada
+OS-00387;MC 1;corr.;18/01/2026 06:04;18/01/2026 06:04;2h;Lâmpada do MC-01 queimada;Técnico D;Fechada
+OS-00610;monta cargas 5;PREDITIVA;11/10/2026 16:28;2026-10-11 18:15:51;1.2;Freio do motor desregulado;Técnico A;Fechada
+OS-00641;MC-03;Corretiva;30-09-2026;;;Cabo de aço desfiado - troca preventiva;Técnico B;Aberta
+OS-00720;mc01;prev;01/10/2026;02/10/2026;6,4;Corrente de tração do MC-01 com folga;Técnico C;Fechada
+OS-00694;mc05;prev;27-10-2026;2026-10-28 02:59:20;384min;Inversor de frequência em falha (E-07);Técnico C;Fechada
+OS-00733;MC 4;corr.;06/09/2026 13:29;2026-09-06 18:20:07;2,4;Vazamento de óleo no cilindro - MC-04;Técnico B;Fechada
+OS-00642;Monta-cargas 05;Preventiva;2026-10-27 14:11:38;2026-10-27 20:28:41;4,8;Ruído no motor de elevação;Técnico A;Fechada
+OS-00631;MC 2;PREVENTIVA;16/09/2026;17/09/2026 01:10;2h24;Corrente de tração do MC-02 com folga;Técnico C;Fechada
+OS-00665;MC-01;PREVENTIVA;12/10/2026;12-10-2026;0.4;Ruído no motor de elevação;Técnico D;Fechada
+OS-00721;mc02;Corretiva ;2026-09-26 14:00:46;26-09-2026;0,8;Porta de pavimento não fecha;Técnico C;Fechada
+OS-00663;MC-02;Corretiva ;14/09/2026 00:41;14/09/2026 07:36;384min;Corrente de tração do MC-02 com folga;Técnico A;Fechada
+OS-00612;MC-06;prev;01/09/2026 09:53;2026-09-01 12:31:17;0h24;Vazamento de óleo no cilindro - MC-06;Técnico D;Fechada
+OS-00623;Monta-cargas 02;Corretiva;2026-10-10 07:45:28;10-10-2026;48min;Botoeira de emergência travada;Técnico C;Fechada
+OS-00624; MC-02 ;Preventiva;24/09/2026 06:09;24/09/2026 08:30;1,6;Freio do motor desregulado;Técnico C;Fechada
+OS-00542;MC-02;Corretiva ;11/07/2026;11/07/2026;2h;Cabo de aço desfiado - troca preventiva;Técnico C;Fechada
+OS-00692;MC-05;pred.;27/10/2026;27/10/2026 04:49;1.6;Inversor de frequência em falha (E-07);Técnico C;Fechada
+OS-00689;mc01;corr.;04/10/2026 00:55;04/10/2026;12h48;Inversor de frequência em falha (E-07);Técnico C;Fechada
+OS-00683;mc03;CORRETIVA;02/10/2026 05:40;02/10/2026 07:44;1,6;Botoeira de emergência travada;Técnico D;Fechada
+OS-00031;Monta-cargas 05;pred.;24/08/2026 15:20;24/08/2026 15:20;2h;Vazamento de óleo no cilindro - MC-05;Técnico A;Fechada
+OS-00618;MC-05;PREVENTIVA;2026-09-01 22:58:32;02/09/2026 02:20;192min;Vazamento de óleo no cilindro - MC-05;Técnico A;Fechada
+OS-00147;MC 2;corr.;17/08/2026;17/08/2026;2h;Porta de pavimento não fecha;Técnico D;Fechada
+OS-00672; MC-05 ;Prev.;04-10-2026;05/10/2026 03:21;6.4;Sensor de fim de curso com mau contato;Técnico A;Fechada
+OS-00677;MC-06;Corretiva;17-09-2026;17-09-2026;3,2;Porta de pavimento não fecha;Técnico B;Fechada
+OS-00617; MC-02 ;pred.;31/08/2026 05:49;31/08/2026;4h48;Freio do motor desregulado;Técnico A;Fechada
+OS-00633; MC-02 ;CORRETIVA;30-09-2026;01/10/2026 06:32;9,6;Lâmpada do MC-02 queimada;Técnico B;Fechada
+OS-00705; MC-01 ;corretiva;01/10/2026 21:24;02/10/2026;576min;Cabo de aço desfiado - troca preventiva;Técnico B;Fechada
+OS-00702;MC-04;PREVENTIVA;25/10/2026;25-10-2026;1,6;Corrente de tração do MC-04 com folga;Técnico B;Fechada
+OS-00616;MC 4;corretiva;19/10/2026 03:23;19/10/2026 13:32;576min;Botoeira de emergência travada;Técnico A;Fechada
+OS-00619; MC-05 ;Preventiva;2026-09-20 16:34:08;20/09/2026 20:04;2h24;Inversor de frequência em falha (E-07);Técnico D;Fechada
+OS-00662;MC-02;Corretiva;22/09/2026 03:38;22-09-2026;12h48;Vazamento de óleo no cilindro - MC-02;Técnico B;Fechada
+OS-00710;MC 1;corr.;08/10/2026 12:54;08/10/2026 15:47;144min;Cabo de aço desfiado - troca preventiva;Técnico D;Fechada
+OS-00602;MC-02;Preventiva;03/09/2026;03/09/2026 18:32;1.6;Ruído no motor de elevação;Técnico C;Fechada
+OS-00730;mc02;prev;10/09/2026;10-09-2026;1h12;Cabo de aço desfiado - troca preventiva;Técnico A;Fechada
+OS-00659;MC-04;Corretiva ;19/10/2026;19/10/2026;3.2;Porta de pavimento não fecha;Técnico D;Fechada
+OS-00737;MC-02;prev;23/09/2026 11:26;23-09-2026;1.2;Vazamento de óleo no cilindro - MC-02;Técnico C;Fechada
+OS-00674;mc03;Corretiva ;23/09/2026;23/09/2026;12.8;Lâmpada do MC-03 queimada;Técnico C;Fechada
+OS-00719;monta cargas 5;CORRETIVA;28/10/2026;28/10/2026 09:32;2h24;Porta de pavimento não fecha;Técnico C;Fechada
+OS-00615;mc06;pred.;13/10/2026 14:08;13/10/2026 15:57;1,6;Botoeira de emergência travada;Técnico D;Fechada
+OS-00653; MC-03 ;corr.;13/09/2026 21:19;14/09/2026;9h36;Sensor de fim de curso com mau contato;Técnico B;Fechada
+OS-00063;MC-03;CORRETIVA;23-03-2026;23-03-2026;2h;Freio do motor desregulado;Técnico B;Fechada
+OS-00463;Monta-cargas 02;Prev.;18-07-2026;18-07-2026;2h;Sensor de fim de curso com mau contato;Técnico B;Fechada
+OS-00686;MC-05;pred.;26/10/2026;26/10/2026;1.2;Vazamento de óleo no cilindro - MC-05;Técnico B;Fechada
+OS-00656;MC-04;PREVENTIVA;10-09-2026;11/09/2026 04:21;6h24;Vazamento de óleo no cilindro - MC-04;Técnico D;Fechada
+OS-00661;MC-05;corretiva;2026-09-23 10:09:04;2026-09-23 12:53:58;96min;Porta de pavimento não fecha;Técnico A;Fechada
+OS-00009;MC-06;corr.;17-02-2026;17-02-2026;2h;Freio do motor desregulado;Técnico A;Fechada
+OS-00693;MC 2;corretiva;16/10/2026 19:45;17/10/2026 01:54;3.2;Porta de pavimento não fecha;Técnico B;Fechada
+OS-00651;MC 1;Prev.;08/10/2026 02:31;2026-10-08 10:34:53;6h24;Sensor de fim de curso com mau contato;Técnico C;Fechada
+OS-00664;monta cargas 6;CORRETIVA;01/09/2026 13:25;2026-09-01 17:05:30;0h48;Porta de pavimento não fecha;Técnico B;Fechada
+OS-00601;Monta-cargas 03;corretiva;12/09/2026 18:26;12/09/2026 23:32;3h12;Botoeira de emergência travada;Técnico B;Fechada
+OS-00660;Monta-cargas 02;corretiva;19/09/2026;19/09/2026 23:26;48min;Botoeira de emergência travada;Técnico B;Fechada
+OS-00635;monta cargas 1;pred.;15/09/2026 02:00;15/09/2026 09:43;288min;Freio do motor desregulado;Técnico D;Fechada
+OS-00410;mc05;corretiva;02/05/2026 22:27;02/05/2026 22:27;2h;Lâmpada do MC-05 queimada;Técnico D;Fechada
+OS-00577;MC-02;prev;20/03/2026 20:30;20/03/2026 20:30;2h;Freio do motor desregulado;Técnico B;Fechada
+OS-00358;MC-01;corretiva;08/07/2026 11:31;08/07/2026 11:31;2h;Corrente de tração do MC-01 com folga;Técnico A;Fechada
+OS-00649;MC-04;CORRETIVA;29-08-2026;30/08/2026;6,4;Cabo de aço desfiado - troca preventiva;Técnico B;Fechada
+OS-00603;MC-06;corr.;13/09/2026 04:52;13/09/2026 15:38;9h36;Sensor de fim de curso com mau contato;Técnico D;Fechada
+OS-00735;MC-03;Corretiva;02/09/2026 17:10;;;Sensor de fim de curso com mau contato;Técnico C;Aberta
+OS-00650;MC-02;PREVENTIVA;02/09/2026 03:31;2026-09-02 05:39:40;0h24;Freio do motor desregulado;Técnico B;Fechada
+OS-00666;MC-04;Corretiva ;18/10/2026;19/10/2026 01:20;192min;Lâmpada do MC-04 queimada;Técnico D;Fechada
+OS-00658;MC-06;Corretiva ;16-10-2026;16/10/2026;3h12;Cabo de aço desfiado - troca preventiva;Técnico B;Fechada
+OS-00613;monta cargas 5;pred.;01-10-2026;;;Porta de pavimento não fecha;Técnico B;Aberta
+OS-00573;MC-01;Corretiva ;2026-08-09 00:59:32;2026-08-09 00:59:32;2h;Cabo de aço desfiado - troca preventiva;Técnico D;Fechada
+OS-00699;MC-01;Preventiva;11-10-2026;11-10-2026;4.8;Vazamento de óleo no cilindro - MC-01;Técnico B;Fechada
+OS-00713;MC-05;corr.;2026-10-04 06:59:37;04/10/2026 11:10;3.2;Inversor de frequência em falha (E-07);Técnico D;Fechada
+OS-00685;mc01;Prev.;22/09/2026 08:15;22/09/2026 08:50;24min;Botoeira de emergência travada;Técnico C;Fechada
+OS-00605;mc02;CORRETIVA;10-10-2026;2026-10-10 21:51:15;768min;Lâmpada do MC-02 queimada;Técnico B;Fechada
+OS-00607;MC 5;Corretiva ;2026-09-30 06:06:45;30/09/2026 14:43;6.4;Lâmpada do MC-05 queimada;Técnico A;Fechada
+OS-00639;monta cargas 1;Preventiva;05/10/2026;2026-10-05 19:50:33;4,8;Freio do motor desregulado;Técnico C;Fechada
+OS-00621; MC-04 ;Corretiva ;2026-10-21 04:10:40;2026-10-21 09:06:44;4.8;Porta de pavimento não fecha;Técnico A;Fechada
+OS-00655;MC-02;corretiva;13/10/2026 12:47;13/10/2026 23:13;576min;Botoeira de emergência travada;Técnico A;Fechada
+OS-00736;MC-04;Corretiva ;17/10/2026;17/10/2026 21:25;48min;Sensor de fim de curso com mau contato;Técnico C;Fechada
+OS-00701;mc06;Preventiva;09/10/2026 04:11;2026-10-09 12:31:16;6.4;Ruído no motor de elevação;Técnico B;Fechada
+OS-00643;MC 5;prev;20/09/2026 12:47;2026-09-20 15:03:34;1,6;Porta de pavimento não fecha;Técnico A;Fechada
+OS-00700;mc05;prev;2026-10-24 12:43:03;24/10/2026;0,8;Inversor de frequência em falha (E-07);Técnico B;Fechada
+OS-00128; MC-02 ;PREVENTIVA;15/03/2026 13:26;15/03/2026 13:26;2h;Cabo de aço desfiado - troca preventiva;Técnico D;Fechada
+OS-00630;MC-06;CORRETIVA;24/09/2026 06:37;24/09/2026 11:12;1h36;Ruído no motor de elevação;Técnico B;Fechada
+OS-00636;MC-02;PREVENTIVA;06/09/2026 06:34;06/09/2026 10:06;192min;Ruído no motor de elevação;Técnico D;Fechada
+OS-00673;monta cargas 6;Corretiva;20/10/2026 02:21;20/10/2026;2,4;Cabo de aço desfiado - troca preventiva;Técnico B;Fechada
+OS-00714;MC-02;prev;04-09-2026;04/09/2026;1,2;Lâmpada do MC-02 queimada;Técnico C;Fechada
+OS-00734;MC 1;Preditiva;16/09/2026 06:57;16/09/2026 09:00;96min;Inversor de frequência em falha (E-07);Técnico B;Fechada
+OS-00252;MC-05;CORRETIVA;05/05/2026 07:30;05/05/2026 07:30;2h;Botoeira de emergência travada;Técnico B;Fechada
+OS-00638; MC-05 ;CORRETIVA;07/09/2026 09:18;07/09/2026 16:11;6,4;Vazamento de óleo no cilindro - MC-05;Técnico B;Fechada
+OS-00647;MC 4;Preditiva;22/10/2026 01:59;22/10/2026 05:01;2h24;Sensor de fim de curso com mau contato;Técnico D;Fechada
+OS-00131;monta cargas 2;Corretiva;12/02/2026 21:49;12/02/2026 21:49;2h;Cabo de aço desfiado - troca preventiva;Técnico B;Fechada
+OS-00667;MC-02;Corretiva ;05/10/2026 05:36;05/10/2026 11:02;3,2;Cabo de aço desfiado - troca preventiva;Técnico C;Fechada
+OS-00725;MC 4;CORRETIVA;17-09-2026;2026-09-17 15:25:38;0,8;Porta de pavimento não fecha;Técnico A;Fechada
+OS-00644;MC-06;corretiva;03/09/2026 06:36;2026-09-03 07:55:11;0,8;Inversor de frequência em falha (E-07);Técnico A;Fechada
+OS-00703;monta cargas 2;corretiva;2026-09-29 17:53:02;30-09-2026;9,6;Inversor de frequência em falha (E-07);Técnico A;Fechada
+OS-00715;monta cargas 3;CORRETIVA;2026-09-03 08:35:07;03/09/2026 12:47;2h24;Inversor de frequência em falha (E-07);Técnico B;Fechada
+OS-00675;MC-05;PREVENTIVA;2026-10-16 10:15:31;16/10/2026 12:48;0.4;Inversor de frequência em falha (E-07);Técnico C;Fechada
+OS-00654;MC-02;Corretiva;09-09-2026;10-09-2026;0,8;Botoeira de emergência travada;Técnico C;Fechada
+OS-00676;MC-01;Corretiva ;13/09/2026 14:41;14/09/2026 05:14;12h48;Lâmpada do MC-01 queimada;Técnico B;Fechada
+OS-00620;Monta-cargas 06;corretiva;18/09/2026 14:41;18-09-2026;1,6;Porta de pavimento não fecha;Técnico C;Fechada
+OS-00696;MC-06;PREDITIVA;20/10/2026;20-10-2026;0h48;Botoeira de emergência travada;Técnico D;Fechada
+OS-00688;Monta-cargas 03;corretiva;24/09/2026;25/09/2026 00:47;9,6;Freio do motor desregulado;Técnico A;Fechada
+OS-00609;MC-02;CORRETIVA;2026-10-09 21:23:55;10/10/2026 00:24;2.4;Corrente de tração do MC-02 com folga;Técnico D;Fechada
+OS-00670;MC 6;pred.;17/09/2026;18-09-2026;1.6;Lâmpada do MC-06 queimada;Técnico A;Fechada
+OS-00716;monta cargas 2;CORRETIVA;26-09-2026;2026-09-26 06:18:43;0h48;Inversor de frequência em falha (E-07);Técnico D;Fechada
+OS-00681;monta cargas 4;prev;06/10/2026 02:20;06/10/2026;0h24;Corrente de tração do MC-04 com folga;Técnico D;Fechada
+OS-00614;Monta-cargas 05;Prev.;19/09/2026;20/09/2026 00:08;2h24;Inversor de frequência em falha (E-07);Técnico D;Fechada
+OS-00724;MC-02;corr.;09-09-2026;09/09/2026 22:34;48min;Sensor de fim de curso com mau contato;Técnico C;Fechada
+OS-00640;MC-06;Preventiva;20/10/2026 21:09;21/10/2026 05:39;384min;Ruído no motor de elevação;Técnico B;Fechada
+OS-00628;Monta-cargas 02;PREDITIVA;29/09/2026;2026-09-29 06:42:13;1h36;Corrente de tração do MC-02 com folga;Técnico D;Fechada
+OS-00704;mc03;corretiva;2026-09-21 22:49:39;22/09/2026 02:55;2h24;Vazamento de óleo no cilindro - MC-03;Técnico C;Fechada
+OS-00209;MC-06;Corretiva ;12/06/2026;12/06/2026;2h;Ruído no motor de elevação;Técnico B;Fechada
+OS-00569;mc02;Prev.;27-05-2026;27-05-2026;2h;Corrente de tração do MC-02 com folga;Técnico C;Fechada
+OS-00629;MC-01;corretiva;05/10/2026 15:56;2026-10-06 06:01:13;768min;Vazamento de óleo no cilindro - MC-01;Técnico A;Fechada
+OS-00652;MC-03;Preventiva;25/09/2026 08:37;25-09-2026;1.2;Porta de pavimento não fecha;Técnico A;Fechada
+OS-00645;mc02;Corretiva ;20-10-2026;21-10-2026;144min;Porta de pavimento não fecha;Técnico A;Fechada
+OS-00622; MC-02 ;Corretiva;05/09/2026 06:59;05/09/2026 10:43;0h48;Lâmpada do MC-02 queimada;Técnico A;Fechada
+OS-00218;monta cargas 2;corr.;22/02/2026 23:30;22/02/2026 23:30;2h;Inversor de frequência em falha (E-07);Técnico C;Fechada
+OS-00682;MC-02;Preventiva;2026-10-17 22:14:19;18/10/2026;6,4;Cabo de aço desfiado - troca preventiva;Técnico B;Fechada
+OS-00731;MC 5;corr.;13-10-2026;13-10-2026;4,8;Cabo de aço desfiado - troca preventiva;Técnico A;Fechada
+OS-00626;mc02;Preditiva;21-10-2026;21/10/2026 08:31;4,8;Botoeira de emergência travada;Técnico C;Fechada
+OS-00028;mc01;Corretiva ;2026-06-25 19:57:27;2026-06-25 19:57:27;2h;Inversor de frequência em falha (E-07);Técnico A;Fechada
+OS-00668;Monta-cargas 06;corr.;23/10/2026;23-10-2026;6.4;Corrente de tração do MC-06 com folga;Técnico C;Fechada
