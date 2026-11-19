@@ -79,3 +79,18 @@ def test_linha_de_comando_para_quando_a_qualidade_falha(spark, entrada, tmp_path
     codigo = cli.main(["--entrada", str(entrada), "--lake", str(tmp_path / "lake"),
                        "--data-referencia", "2026-11-19", "--relatorio", str(relatorio)])
     assert codigo == 1 and "PARADO" in relatorio.read_text(encoding="utf-8")
+
+
+def test_sessao_ja_existente_recebe_os_ajustes_de_data(spark, entrada, tmp_path):
+    """No Databricks a sessão já vem pronta, com ANSI ligado: o pipeline precisa
+    desligar, senão a data 31/02 quebra tudo em vez de ir para a quarentena."""
+    spark.conf.set("spark.sql.ansi.enabled", "true")
+    spark.conf.set("spark.sql.legacy.timeParserPolicy", "EXCEPTION")
+    try:
+        from pipeline.executar import executar
+        r = executar(str(entrada), str(tmp_path / "lake"), REF, spark=spark)
+        assert r["rejeitadas"] == 6
+        assert spark.conf.get("spark.sql.ansi.enabled") == "false"
+    finally:
+        from pipeline.sessao import ajustar
+        ajustar(spark)

@@ -15,7 +15,7 @@ from datetime import date
 from pathlib import Path
 
 from pipeline import bronze, gold, qualidade, silver
-from pipeline.sessao import criar_spark
+from pipeline.sessao import ajustar, criar_spark
 
 
 def _tabela_markdown(df, limite: int = 20) -> str:
@@ -31,6 +31,7 @@ def _tabela_markdown(df, limite: int = 20) -> str:
 
 def executar(entrada: str, lake: str, data_referencia: date, spark=None) -> dict:
     spark = spark or criar_spark()
+    ajustar(spark)  # também vale para a sessão que já vem pronta (Databricks)
     caminhos = {
         "bronze": f"{lake}/bronze/ordens_servico",
         "silver": f"{lake}/silver/ordens_servico",

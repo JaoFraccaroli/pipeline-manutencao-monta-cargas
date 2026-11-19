@@ -88,7 +88,7 @@ O GitHub Actions **roda o pipeline duas vezes seguidas** e confere que os númer
 
 ## Testes
 
-São **44 testes** com PySpark local ([`tests/`](tests)):
+São **45 testes** com PySpark local ([`tests/`](tests)):
 
 | Arquivo | O que testa |
 |---|---|
